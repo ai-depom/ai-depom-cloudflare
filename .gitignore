@@ -1,0 +1,149 @@
+# =====================================================
+# AI-DEPOM - .gitignore
+# =====================================================
+# Data: 04/09/2026
+# Versão: 1.0.0
+# Descrição: Arquivos e pastas que não devem ser versionados
+# =====================================================
+
+# ===== BANCO DE DADOS =====
+*.sqlite
+*.db
+*.log
+*.dump
+*.backup
+*.bak
+*.sqlite3
+
+# ===== SENHAS E CREDENCIAIS =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets.json
+config.local.json
+credentials.json
+*.secret
+*.secrets
+
+# ===== ARQUIVOS DE MÍDIA (Grandes) =====
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.psd
+*.webp
+*.svg
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+*.dmg
+
+# ===== DEPENDÊNCIAS =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+venv/
+env/
+.venv
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== IDE E EDITORES =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+.vscode/
+.idea/
+*.iml
+
+# ===== LOGS E TEMPORÁRIOS =====
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.cache
+
+# ===== BACKUPS =====
+*.backup
+*.old
+*.orig
+*.bak
+
+# ===== ARQUIVOS DE BUILD =====
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.class
+
+# ===== RELATÓRIOS GERADOS =====
+reports/
+export/
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.docx
+
+# ===== TESTES =====
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.tmp
+
+# ===== ARQUIVOS DE CONFIGURAÇÃO LOCAL =====
+config.local.js
+config.local.json
+settings.local.py
+local_settings.py
+*.local
+
+# ===== SUPABASE =====
+supabase/.env.local
+supabase/seed-data/
+supabase/migrations/*.backup
+
+# Backups locais
+backup_fase*/
